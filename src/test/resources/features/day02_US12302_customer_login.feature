@@ -7,6 +7,7 @@ Feature: customer_login
     And user sends username "<username>"
     And user sends password "<password>"
     When user clicks on login button
+    Then capture the screenshot
     Then close the application
 
 

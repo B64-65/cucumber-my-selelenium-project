@@ -8,6 +8,7 @@ Feature: day02_US12300_scenario_outline_1.feature
 
     When user search for "<value>" on google
     Then verify the page title contains "<value>"
+    Then capture the screenshot
     Then close the application
 
 #    shift+\  = |
