@@ -57,6 +57,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/testdata" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: day02_US12303_data_tables" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -77,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01_Iphone_Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC_01_admin_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US12300_parameterizing_feature_file_google_search.feature" />
-      <option name="GLUE" value="stepdefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/excel.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mycucumberproject" />
-      <option name="NAME_FILTER" value="^TC01_Iphone_Search$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_Iphone_Search$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_Iphone_Search" />
+      <option name="NAME_FILTER" value="^TC_01_admin_login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_01_admin_login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC_01_admin_login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +102,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: login_admin_profile_testing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC_login_with_admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day02_US12303_data_tables.feature" />
-      <option name="GLUE" value="stepdefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day04_excel_automation.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mycucumberproject" />
-      <option name="NAME_FILTER" value="^login_admin_profile_testing$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^login_admin_profile_testing$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: login_admin_profile_testing" />
+      <option name="NAME_FILTER" value="^TC_login_with_admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_login_with_admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC_login_with_admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -155,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC_login_with_admin" />
+        <item itemvalue="Cucumber Java.Scenario: TC_01_admin_login" />
         <item itemvalue="Cucumber Java.Feature: day02_US12303_data_tables" />
         <item itemvalue="Cucumber Java.Scenario: login_with_admin_profile" />
-        <item itemvalue="Cucumber Java.Scenario: login_admin_profile_testing" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_Iphone_Search" />
       </list>
     </recent_temporary>
   </component>
@@ -190,34 +195,34 @@
       <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state x="1259" y="209" key="#Project_Structure/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1654971389608" />
-    <state width="2439" height="563" key="GridCell.Tab.0.bottom" timestamp="1655344140452">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="236" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655342720040" />
-    <state width="2378" height="469" key="GridCell.Tab.0.bottom/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581898" />
-    <state width="2439" height="563" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655344140452" />
-    <state width="2439" height="563" key="GridCell.Tab.0.center" timestamp="1655344140451">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="236" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655342720039" />
-    <state width="2378" height="469" key="GridCell.Tab.0.center/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
-    <state width="2439" height="563" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655344140451" />
-    <state width="2439" height="563" key="GridCell.Tab.0.left" timestamp="1655344140451">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="236" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655342720038" />
-    <state width="2378" height="469" key="GridCell.Tab.0.left/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581896" />
-    <state width="2439" height="563" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655344140451" />
-    <state width="2439" height="563" key="GridCell.Tab.0.right" timestamp="1655344140451">
-      <screen x="69" y="25" width="2491" height="1415" />
-    </state>
-    <state width="2508" height="236" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655342720039" />
-    <state width="2378" height="469" key="GridCell.Tab.0.right/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
-    <state width="2439" height="563" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655344140451" />
-    <state x="1077" y="196" width="1407" height="903" key="SettingsEditor" timestamp="1655255305984">
+    <state width="2508" height="325" key="GridCell.Tab.0.bottom" timestamp="1655569201553">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1077" y="196" key="SettingsEditor/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655255305984" />
+    <state width="2508" height="325" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655569201553" />
+    <state width="2378" height="469" key="GridCell.Tab.0.bottom/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581898" />
+    <state width="2439" height="279" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655560095979" />
+    <state width="2508" height="325" key="GridCell.Tab.0.center" timestamp="1655569201551">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="325" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655569201551" />
+    <state width="2378" height="469" key="GridCell.Tab.0.center/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
+    <state width="2439" height="279" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655560095979" />
+    <state width="2508" height="325" key="GridCell.Tab.0.left" timestamp="1655569201550">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="325" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655569201550" />
+    <state width="2378" height="469" key="GridCell.Tab.0.left/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581896" />
+    <state width="2439" height="279" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655560095978" />
+    <state width="2508" height="325" key="GridCell.Tab.0.right" timestamp="1655569201552">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="325" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655569201552" />
+    <state width="2378" height="469" key="GridCell.Tab.0.right/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
+    <state width="2439" height="279" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655560095979" />
+    <state x="1077" y="196" width="1407" height="903" key="SettingsEditor" timestamp="1655567565156">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1077" y="196" key="SettingsEditor/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655567565156" />
     <state x="1117" y="218" width="1407" height="903" key="SettingsEditor/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655251559052" />
     <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1654974710419">
       <screen x="0" y="0" width="2560" height="1440" />

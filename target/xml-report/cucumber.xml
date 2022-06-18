@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="113.964">
+<testcase classname="FE35678_log_in_with_different_credentials" name="TC_login_with_admin" time="26.495">
+<system-out><![CDATA[Given user login with excel as "admin"......................................passed
+Then capture the screenshot.................................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FE35678_log_in_with_different_credentials" name="TC_login_with_admin_2" time="87.254">
+<system-out><![CDATA[Given user login with excel as "customer"...................................passed
+Then capture the screenshot.................................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
