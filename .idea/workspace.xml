@@ -62,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC01_read_customer_ssn_information">
     <configuration name="Feature: first_feature_file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first_feature_file.feature" />
@@ -82,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC_login_with_admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01_read_customer_information_ssn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day04_excel_automation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
       <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mycucumberproject" />
-      <option name="NAME_FILTER" value="^TC_login_with_admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_login_with_admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC_login_with_admin" />
+      <option name="NAME_FILTER" value="^TC01_read_customer_information_ssn$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_read_customer_information_ssn$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01_read_customer_information_ssn" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -102,17 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailedScenarioRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01_read_customer_ssn_information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mycucumberproject" />
+      <option name="NAME_FILTER" value="^TC01_read_customer_ssn_information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_read_customer_ssn_information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01_read_customer_ssn_information" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.FailedScenarioRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC01_read_customer_ssn_information" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_read_customer_information_ssn" />
         <item itemvalue="Cucumber Java.Feature: first_feature_file" />
         <item itemvalue="JUnit.runners in mycucumberproject" />
-        <item itemvalue="JUnit.FailedScenarioRunner" />
-        <item itemvalue="Cucumber Java.Scenario: TC_login_with_admin" />
       </list>
     </recent_temporary>
   </component>
@@ -184,38 +189,56 @@
       <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state x="1259" y="209" key="#Project_Structure/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1654971389608" />
-    <state width="2508" height="400" key="GridCell.Tab.0.bottom" timestamp="1655583071654">
+    <state x="1058" y="577" width="512" height="380" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1655763390345">
+      <screen x="69" y="25" width="2491" height="1415" />
+    </state>
+    <state x="1058" y="577" width="512" height="380" key="DBNavigator.ConnectionAuthenticationDialog/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655763390345" />
+    <state x="853" y="426" key="DBNavigator.DatasetFilterDialog" timestamp="1655772227824">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="400" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655583071654" />
+    <state x="853" y="426" key="DBNavigator.DatasetFilterDialog/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655772227824" />
+    <state x="899" y="444" key="DBNavigator.DatasetFilterDialog/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655766210152" />
+    <state x="802" y="365" key="DBNavigator.ProjectSettingsDialog" timestamp="1655772195937">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="802" y="365" key="DBNavigator.ProjectSettingsDialog/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655772195937" />
+    <state x="849" y="384" key="DBNavigator.ProjectSettingsDialog/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655763615828" />
+    <state width="2508" height="490" key="GridCell.Tab.0.bottom" timestamp="1655775742921">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2508" height="490" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742921" />
     <state width="2378" height="469" key="GridCell.Tab.0.bottom/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581898" />
-    <state width="2356" height="642" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655581878632" />
-    <state width="2508" height="400" key="GridCell.Tab.0.center" timestamp="1655583071653">
+    <state width="2439" height="1040" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485833" />
+    <state width="2508" height="490" key="GridCell.Tab.0.center" timestamp="1655775742920">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="400" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655583071653" />
+    <state width="2508" height="490" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742920" />
     <state width="2378" height="469" key="GridCell.Tab.0.center/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
-    <state width="2356" height="642" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655581878631" />
-    <state width="2508" height="400" key="GridCell.Tab.0.left" timestamp="1655583071652">
+    <state width="2439" height="1040" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485832" />
+    <state width="2508" height="490" key="GridCell.Tab.0.left" timestamp="1655775742920">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="400" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655583071652" />
+    <state width="2508" height="490" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742920" />
     <state width="2378" height="469" key="GridCell.Tab.0.left/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581896" />
-    <state width="2356" height="642" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655581878631" />
-    <state width="2508" height="400" key="GridCell.Tab.0.right" timestamp="1655583071654">
+    <state width="2439" height="1040" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485832" />
+    <state width="2508" height="490" key="GridCell.Tab.0.right" timestamp="1655775742921">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="400" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655583071654" />
+    <state width="2508" height="490" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742921" />
     <state width="2378" height="469" key="GridCell.Tab.0.right/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
-    <state width="2356" height="642" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655581878632" />
+    <state width="2439" height="1040" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485833" />
+    <state width="536" height="168" key="LargeValuePreview.password_hash" timestamp="1655772665527">
+      <screen x="69" y="25" width="2491" height="1415" />
+    </state>
+    <state width="536" height="168" key="LargeValuePreview.password_hash/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655772665527" />
     <state x="1077" y="196" width="1407" height="903" key="SettingsEditor" timestamp="1655567565156">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1077" y="196" key="SettingsEditor/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655567565156" />
     <state x="1117" y="218" width="1407" height="903" key="SettingsEditor/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655251559052" />
-    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1654974710419">
+    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1655774989165">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1654974710419" />
+    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655774989165" />
   </component>
 </project>

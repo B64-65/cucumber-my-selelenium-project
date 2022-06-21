@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Smoke Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 18, 2022 03:11:12 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jun 20, 2022 08:28:25 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 18, 2022 03:11:12 PM</h3>
+<h3>Jun 20, 2022 08:28:25 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 18, 2022 03:11:37 PM</h3>
+<h3>Jun 20, 2022 08:28:29 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -123,7 +123,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -143,7 +143,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>16</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>3</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"First Feature File":24.243
+"database_read_feature":2.866
 };
 </script>
 <div class="row">
@@ -172,32 +172,8 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@teapot_search</td>
+<td>@db_customer_ssn</td>
 <td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@smoke_test</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@test3</td>
-<td>4</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@google_search</td>
-<td>4</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -217,13 +193,13 @@ failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 4,
+passChild: 1,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 16,
+passGrandChild: 3,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -248,7 +224,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@teapot_search</a><a class="dropdown-item" href="#">@smoke_test</a><a class="dropdown-item" href="#">@test3</a><a class="dropdown-item" href="#">@google_search</a>
+<a class="dropdown-item" href="#">@db_customer_ssn</a>
 </ul>
 </li>
 </ul>
@@ -259,9 +235,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">First Feature File</p>
+            <p class="name">database_read_feature</p>
             <p class="text-sm">
-              <span>3:11:13 PM</span> / <span>00:00:24:243</span>
+              <span>8:28:26 PM</span> / <span>00:00:02:866</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -269,10 +245,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">First Feature File</h5>
-<span class='badge badge-success'>06.18.2022 3:11:13 PM</span>
-<span class='badge badge-danger'>06.18.2022 3:11:37 PM</span>
-<span class='badge badge-default'>00:00:24:243</span>
+<h5 class="test-status text-pass">database_read_feature</h5>
+<span class='badge badge-success'>06.20.2022 8:28:26 PM</span>
+<span class='badge badge-danger'>06.20.2022 8:28:29 PM</span>
+<span class='badge badge-default'>00:00:02:866</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -284,121 +260,23 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>TC01_Iphone_Search</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>TC01_read_customer_ssn_information</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_is_on_the_google_page()">
-                <span>Given user is on the google page</span>
+              <div class="step pass-bg" title="stepdefinitions.DBStepDefs.user_connects_to_the_database()">
+                <span>Given user connects to the database</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_search_for_i_phone_on_google()">
-                <span>When user search for iPhone on google</span>
+              <div class="step pass-bg" title="stepdefinitions.DBStepDefs.user_gets_the_from_table(java.lang.String,java.lang.String)">
+                <span>And user gets the "*" from "tp_customer" table</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.verify_the_page_title_contains_i_phone()">
-                <span>Then verify the page title contains iPhone</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.close_the_application()">
-                <span>And close the application</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>TC02_Teapot_Search</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_is_on_the_google_page()">
-                <span>Given user is on the google page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_search_for_tea_pot_on_google()">
-                <span>When user search for TeaPot on google</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.verify_the_page_title_contains_tea_pot()">
-                <span>Then verify the page title contains TeaPot</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.close_the_application()">
-                <span>And close the application</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>TC03_Flower_Search</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_is_on_the_google_page()">
-                <span>Given user is on the google page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_search_for_flower_on_google()">
-                <span>When user search for Flower on google</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.verify_the_page_title_contains_flower()">
-                <span>Then verify the page title contains Flower</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.close_the_application()">
-                <span>And close the application</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>TC04_BMW_Search</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_is_on_the_google_page()">
-                <span>Given user is on the google page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.user_search_for_bmw_on_google()">
-                <span>When user search for BMW on google</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.verify_the_page_title_contains_bmw()">
-                <span>Then verify the page title contains BMW</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.GoogleStepDefs.close_the_application()">
-                <span>And close the application</span>
+              <div class="step pass-bg" title="stepdefinitions.DBStepDefs.user_reads_all_of_the_column_data(java.lang.String)">
+                <span>And user reads all of the "ssn" column data</span>
       <div>
       </div>
               </div>
@@ -421,7 +299,7 @@ eventsCount: 5,
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
@@ -430,12 +308,12 @@ eventsCount: 5,
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@teapot_search</p>
+<p class="name">@db_customer_ssn</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@teapot_search</h4>
+<h4>@db_customer_ssn</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -449,189 +327,11 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:20 PM</td>
+<td>20:28:26 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='8'>TC02_Teapot_Search</a>
+<a href="#" class="linked" test-id='1' id='2'>TC01_read_customer_ssn_information</a>
 <div class="">
-<span class="badge badge-default">First Feature File.TC02_Teapot_Search</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>2</span>
-</span>
-<p class="name">@smoke_test</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@smoke_test</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:25 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='14'>TC03_Flower_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC03_Flower_Search</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:31 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='20'>TC04_BMW_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC04_BMW_Search</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>4</span>
-</span>
-<p class="name">@test3</p>
-<p class="duration text-sm">4 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@test3</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:13 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>TC01_Iphone_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC01_Iphone_Search</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='8'>TC02_Teapot_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC02_Teapot_Search</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:25 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='14'>TC03_Flower_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC03_Flower_Search</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:31 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='20'>TC04_BMW_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC04_BMW_Search</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>4</span>
-</span>
-<p class="name">@google_search</p>
-<p class="duration text-sm">4 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@google_search</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:13 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>TC01_Iphone_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC01_Iphone_Search</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='8'>TC02_Teapot_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC02_Teapot_Search</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:25 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='14'>TC03_Flower_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC03_Flower_Search</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>15:11:31 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='20'>TC04_BMW_Search</a>
-<div class="">
-<span class="badge badge-default">First Feature File.TC04_BMW_Search</span>
+<span class="badge badge-default">database_read_feature.TC01_read_customer_ssn_information</span>
 </div>
 </td>
 </tr>
