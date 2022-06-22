@@ -1,8 +1,11 @@
 package stepdefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import utilities.DBUtils;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DBStepDefs {
 
@@ -43,4 +46,52 @@ public class DBStepDefs {
     public void close_the_database_connection() {
         DBUtils.closeConnection();
     }
+
+
+    @Then("verify {string} table {string} column contains {string} data")
+    public void verify_table_column_contains_data(String table, String column, String data) {
+
+//        1. get the database column data in a list
+//        getColumnData(String query, String column)-> returns a List of Column data
+//        RETURNS login COLUMN DATA OF jhi_user TABLE
+
+//        table = jhi_user
+//        column=login
+//        data  = scott              select * from "+table
+//        DBUtils.getColumnData("select * from jhi_user","login");
+        List<Object> allColumnData = DBUtils.getColumnData("select * from "+table+"",column);
+        System.out.println(allColumnData);
+
+////       2. Get the expected data in a list
+//        List<Object> expectedData=new ArrayList<>();
+//        expectedData.add(data);//adding the FF data in the list
+//
+////        3. compare if expected data is in the all column data list
+//        Assert.assertTrue(allColumnData.containsAll(expectedData));
+
+//        or simply
+        Assert.assertTrue(allColumnData.contains(data));
+//
+////        list a = ['apple','orange','banana']     string b = orange
+////        how do you check if list contains a sting?  a.contains(b)
+//
+
+    }
+
+    @Then("read the row count of {string} table")
+    public void read_the_row_count_of_table(String table) throws Exception {
+        int rowCount = DBUtils.getRowCount();
+        System.out.println(table +" row count : "+rowCount);
+
+    }
+
+    @Then("read column names of {string}")
+    public void read_column_names_of(String table) {
+//        String query = "Select * from jhi_user";
+//        writing the query
+        String query = "Select * from "+table;
+//        using the query to get the column names
+        System.out.println(DBUtils.getColumnNames(query));
+    }
+
 }

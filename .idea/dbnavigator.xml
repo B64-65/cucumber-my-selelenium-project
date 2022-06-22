@@ -28,7 +28,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="8822dd6c-9777-410f-b94d-a64517f354d1">
-      <console name="Connection" type="STANDARD" schema="information_schema" session="Main"><![CDATA[select ssn  from "public".tp_customer;]]></console>
+      <console name="Connection" type="STANDARD" schema="information_schema" session="Main"><![CDATA[select *  from "public".jhi_user;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

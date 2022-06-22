@@ -62,55 +62,16 @@
       <recent name="$PROJECT_DIR$/src/test/resources/testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC01_read_customer_ssn_information">
-    <configuration name="Feature: first_feature_file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first_feature_file.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="mycucumberproject" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: first_feature_file" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC01_read_customer_information_ssn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="mycucumberproject" />
-      <option name="NAME_FILTER" value="^TC01_read_customer_information_ssn$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_read_customer_information_ssn$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_read_customer_information_ssn" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC01_read_customer_ssn_information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC09_read_customer">
+    <configuration name="Scenario: TC04_read_user_email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
       <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mycucumberproject" />
-      <option name="NAME_FILTER" value="^TC01_read_customer_ssn_information$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_read_customer_ssn_information$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_read_customer_ssn_information" />
+      <option name="NAME_FILTER" value="^TC04_read_user_email$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC04_read_user_email$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC04_read_user_email" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -122,42 +83,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC05_read_user_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mycucumberproject" />
+      <option name="NAME_FILTER" value="^TC05_read_user_login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC05_read_user_login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC05_read_user_login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runners in mycucumberproject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC06_verify_user_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mycucumberproject" />
+      <option name="NAME_FILTER" value="^TC06_verify_user_login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC06_verify_user_login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC06_verify_user_login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC08_verify_account_type" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mycucumberproject" />
+      <option name="NAME_FILTER" value="^TC08_verify_account_type$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08_verify_account_type$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC08_verify_account_type" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC09_read_customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mycucumberproject" />
+      <option name="NAME_FILTER" value="^TC09_read_customer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC09_read_customer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC09_read_customer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC01_read_customer_ssn_information" />
-        <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_read_customer_information_ssn" />
-        <item itemvalue="Cucumber Java.Feature: first_feature_file" />
-        <item itemvalue="JUnit.runners in mycucumberproject" />
+        <item itemvalue="Cucumber Java.Scenario: TC09_read_customer" />
+        <item itemvalue="Cucumber Java.Scenario: TC08_verify_account_type" />
+        <item itemvalue="Cucumber Java.Scenario: TC06_verify_user_login" />
+        <item itemvalue="Cucumber Java.Scenario: TC05_read_user_login" />
+        <item itemvalue="Cucumber Java.Scenario: TC04_read_user_email" />
       </list>
     </recent_temporary>
   </component>
@@ -203,30 +215,34 @@
     </state>
     <state x="802" y="365" key="DBNavigator.ProjectSettingsDialog/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655772195937" />
     <state x="849" y="384" key="DBNavigator.ProjectSettingsDialog/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655763615828" />
-    <state width="2508" height="490" key="GridCell.Tab.0.bottom" timestamp="1655775742921">
+    <state width="2508" height="414" key="GridCell.Tab.0.bottom" timestamp="1655860151272">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="490" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742921" />
+    <state width="2508" height="414" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151272" />
     <state width="2378" height="469" key="GridCell.Tab.0.bottom/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581898" />
     <state width="2439" height="1040" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485833" />
-    <state width="2508" height="490" key="GridCell.Tab.0.center" timestamp="1655775742920">
+    <state width="2508" height="414" key="GridCell.Tab.0.center" timestamp="1655860151271">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="490" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742920" />
+    <state width="2508" height="414" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151271" />
     <state width="2378" height="469" key="GridCell.Tab.0.center/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
     <state width="2439" height="1040" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485832" />
-    <state width="2508" height="490" key="GridCell.Tab.0.left" timestamp="1655775742920">
+    <state width="2508" height="414" key="GridCell.Tab.0.left" timestamp="1655860151271">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="490" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742920" />
+    <state width="2508" height="414" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151271" />
     <state width="2378" height="469" key="GridCell.Tab.0.left/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581896" />
     <state width="2439" height="1040" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485832" />
-    <state width="2508" height="490" key="GridCell.Tab.0.right" timestamp="1655775742921">
+    <state width="2508" height="414" key="GridCell.Tab.0.right" timestamp="1655860151272">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="490" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655775742921" />
+    <state width="2508" height="414" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151272" />
     <state width="2378" height="469" key="GridCell.Tab.0.right/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
     <state width="2439" height="1040" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485833" />
+    <state width="520" height="122" key="LargeValuePreview.address" timestamp="1655853748712">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="520" height="122" key="LargeValuePreview.address/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655853748712" />
     <state width="536" height="168" key="LargeValuePreview.password_hash" timestamp="1655772665527">
       <screen x="69" y="25" width="2491" height="1415" />
     </state>
