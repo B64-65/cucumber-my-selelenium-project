@@ -62,47 +62,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC09_read_customer">
-    <configuration name="Scenario: TC04_read_user_email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="mycucumberproject" />
-      <option name="NAME_FILTER" value="^TC04_read_user_email$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC04_read_user_email$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC04_read_user_email" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC05_read_user_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="mycucumberproject" />
-      <option name="NAME_FILTER" value="^TC05_read_user_login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC05_read_user_login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC05_read_user_login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GridRunner">
     <configuration name="Scenario: TC06_verify_user_login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_testing/jdbc_read.feature" />
@@ -163,13 +123,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GridRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mycucumberproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.GridRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mycucumberproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GridRunner" />
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Scenario: TC09_read_customer" />
         <item itemvalue="Cucumber Java.Scenario: TC08_verify_account_type" />
         <item itemvalue="Cucumber Java.Scenario: TC06_verify_user_login" />
-        <item itemvalue="Cucumber Java.Scenario: TC05_read_user_login" />
-        <item itemvalue="Cucumber Java.Scenario: TC04_read_user_email" />
       </list>
     </recent_temporary>
   </component>
@@ -215,30 +205,34 @@
     </state>
     <state x="802" y="365" key="DBNavigator.ProjectSettingsDialog/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655772195937" />
     <state x="849" y="384" key="DBNavigator.ProjectSettingsDialog/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655763615828" />
-    <state width="2508" height="414" key="GridCell.Tab.0.bottom" timestamp="1655860151272">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2070" height="316" key="GridCell.Tab.0.bottom" timestamp="1656396100065">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151272" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1656378222167" />
+    <state width="2070" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.25.2560.1415@0.25.2560.1415" timestamp="1656379153541" />
     <state width="2378" height="469" key="GridCell.Tab.0.bottom/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581898" />
-    <state width="2439" height="1040" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485833" />
-    <state width="2508" height="414" key="GridCell.Tab.0.center" timestamp="1655860151271">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2070" height="316" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1656396100065" />
+    <state width="2070" height="316" key="GridCell.Tab.0.center" timestamp="1656396100064">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151271" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1656378222166" />
+    <state width="2070" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/0.25.2560.1415@0.25.2560.1415" timestamp="1656379153540" />
     <state width="2378" height="469" key="GridCell.Tab.0.center/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
-    <state width="2439" height="1040" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485832" />
-    <state width="2508" height="414" key="GridCell.Tab.0.left" timestamp="1655860151271">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2070" height="316" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1656396100064" />
+    <state width="2070" height="316" key="GridCell.Tab.0.left" timestamp="1656396100064">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151271" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1656378222150" />
+    <state width="2070" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/0.25.2560.1415@0.25.2560.1415" timestamp="1656379153538" />
     <state width="2378" height="469" key="GridCell.Tab.0.left/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581896" />
-    <state width="2439" height="1040" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485832" />
-    <state width="2508" height="414" key="GridCell.Tab.0.right" timestamp="1655860151272">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2070" height="316" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1656396100064" />
+    <state width="2070" height="316" key="GridCell.Tab.0.right" timestamp="1656396100065">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="414" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655860151272" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1656378222166" />
+    <state width="2070" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/0.25.2560.1415@0.25.2560.1415" timestamp="1656379153540" />
     <state width="2378" height="469" key="GridCell.Tab.0.right/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1654977581897" />
-    <state width="2439" height="1040" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655773485833" />
+    <state width="2070" height="316" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1656396100065" />
     <state width="520" height="122" key="LargeValuePreview.address" timestamp="1655853748712">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -252,6 +246,10 @@
     </state>
     <state x="1077" y="196" key="SettingsEditor/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1655567565156" />
     <state x="1117" y="218" width="1407" height="903" key="SettingsEditor/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1655251559052" />
+    <state x="939" y="386" width="751" height="692" key="find.popup" timestamp="1656344983729">
+      <screen x="69" y="25" width="2491" height="1415" />
+    </state>
+    <state x="939" y="386" width="751" height="692" key="find.popup/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1656344983729" />
     <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1655774989165">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
